@@ -1,7 +1,6 @@
 # 🌿 GreenFair — AI Plant, Herb & Spice Parent App
 
-GreenFair is a full-stack mobile application (inspired by PlantNet / Plant
-Parent) that identifies plants, herbs, and spices from a photo and gives
+GreenFair is a full-stack mobile application that identifies plants, herbs, and spices from a photo and gives
 complete daily-care guidance: watering schedule, sunlight needs, soil type,
 flowering & fruiting timeline, flower color, fruit taste, edibility,
 pruning schedule, pest/disease diagnosis & pesticide recommendation, and
