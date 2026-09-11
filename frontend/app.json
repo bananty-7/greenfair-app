@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "GreenFair",
+    "slug": "greenfair",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0F5132"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "GreenFair needs camera access to identify plants, herbs, and spices from photos.",
+        "NSPhotoLibraryUsageDescription": "GreenFair needs photo library access to identify plants from your saved images."
+      }
+    },
+    "android": {
+      "package": "com.greenfair.app",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
