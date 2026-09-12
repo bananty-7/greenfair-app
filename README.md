@@ -69,31 +69,16 @@ npm install
 npx expo start
 ```
 
-Open with the **Expo Go** app on your phone (scan QR code), or run an
-emulator. Update `frontend/src/services/api.js` → `BASE_URL` to point at
-your backend (see `frontend/README.md` for emulator vs physical device
-addresses).
-
 ## 🔑 Getting Free API Keys (optional, for production use)
 
 - **Pl@ntNet** (plant identification): https://my.plantnet.org/ — free tier available
 - **OpenWeatherMap** (weather suitability): https://openweathermap.org/api — free tier available
 - **MongoDB Atlas** (free cloud database for "My Garden"): https://www.mongodb.com/cloud/atlas
 
-## 📤 Uploading to GitHub
-
-```bash
+## 📥 Getting Started (Clone this repo)
+bash
+git clone https://github.com/bananty-7/greenfair-app.git
 cd greenfair-app
-git init
-git add .
-git commit -m "Initial commit: GreenFair app"
-git branch -M main
-git remote add origin https://github.com/<your-username>/greenfair-app.git
-git push -u origin main
-```
-
-`.env` files and `node_modules/` are already excluded via `.gitignore`.
-Remember to add your own `backend/.env` locally (never commit real API keys).
 
 ## 🛠️ Tech Stack
 
