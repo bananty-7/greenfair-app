@@ -1,11 +1,6 @@
 # 🌿 GreenFair — AI Plant, Herb & Spice Parent App
 
-GreenFair is a full-stack mobile application (inspired by PlantNet / Plant
-Parent) that identifies plants, herbs, and spices from a photo and gives
-complete daily-care guidance: watering schedule, sunlight needs, soil type,
-flowering & fruiting timeline, flower color, fruit taste, edibility,
-pruning schedule, pest/disease diagnosis & pesticide recommendation, and
-current weather suitability.
+GreenFair is a full-stack mobile application that identifies plants, herbs, and spices from a photo and gives complete daily-care guidance: watering schedule, sunlight needs, soil type, flowering & fruiting timeline, flower color, fruit taste, edibility, pruning schedule, pest/disease diagnosis & pesticide recommendation, and current weather suitability.
 
 ## 📁 Project Structure
 
@@ -47,6 +42,15 @@ greenfair-app/
 | ☁️ Weather check | Live check if today's weather suits the plant, using device GPS |
 | 🪴 My Garden | Save your own plants and track care history |
 
+## 📥 Getting Started (Clone this repo)
+
+```bash
+git clone https://github.com/bananty-7/greenfair-app.git
+cd greenfair-app
+```
+
+Then follow the Quick Start steps below.
+
 ## 🚀 Quick Start
 
 ### 1. Backend
@@ -58,9 +62,7 @@ cp .env.example .env
 npm run dev
 ```
 
-Runs at `http://localhost:5000`. Works immediately in **demo mode** — no
-API keys required to test the full flow. Add real keys later for
-production-grade AI identification and live weather (see `backend/README.md`).
+Runs at `http://localhost:5000`. Works immediately in **demo mode** — no API keys required to test the full flow. Add real keys later for production-grade AI identification and live weather (see `backend/README.md`).
 
 ### 2. Frontend
 
@@ -70,10 +72,7 @@ npm install
 npx expo start
 ```
 
-Open with the **Expo Go** app on your phone (scan QR code), or run an
-emulator. Update `frontend/src/services/api.js` → `BASE_URL` to point at
-your backend (see `frontend/README.md` for emulator vs physical device
-addresses).
+Open with the **Expo Go** app on your phone (scan QR code), or run an emulator. Update `frontend/src/services/api.js` → `BASE_URL` to point at your backend (see `frontend/README.md` for emulator vs physical device addresses).
 
 ## 🔑 Getting Free API Keys (optional, for production use)
 
@@ -81,20 +80,7 @@ addresses).
 - **OpenWeatherMap** (weather suitability): https://openweathermap.org/api — free tier available
 - **MongoDB Atlas** (free cloud database for "My Garden"): https://www.mongodb.com/cloud/atlas
 
-## 📤 Uploading to GitHub
-
-```bash
-cd greenfair-app
-git init
-git add .
-git commit -m "Initial commit: GreenFair app"
-git branch -M main
-git remote add origin https://github.com/<your-username>/greenfair-app.git
-git push -u origin main
-```
-
-`.env` files and `node_modules/` are already excluded via `.gitignore`.
-Remember to add your own `backend/.env` locally (never commit real API keys).
+`.env` files and `node_modules/` are already excluded via `.gitignore`. Never commit real API keys or database passwords — keep them only in your local `backend/.env`.
 
 ## 🛠️ Tech Stack
 
@@ -111,4 +97,9 @@ Remember to add your own `backend/.env` locally (never commit real API keys).
 - Offline-first plant database caching
 
 ## 📄 License
-MIT — free to use, modify, and build upon.
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details. You're free to use, modify, and distribute this code, as long as the original copyright notice is kept.
+
+## 👤 Author
+**bananty-7**
+GitHub: [@bananty-7](https://github.com/bananty-7)
+
