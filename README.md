@@ -109,5 +109,4 @@ Remember to add your own `backend/.env` locally (never commit real API keys).
 - Multi-language UI toggle (Bangla/English)
 - Offline-first plant database caching
 
-## 📄 License
-MIT — free to use, modify, and build upon.
+
